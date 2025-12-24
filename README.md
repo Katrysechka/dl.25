@@ -36,7 +36,7 @@
 ---
 
 ## Структура репозитория
-
+```
 project_25/
 ├── data/ # Исходные tsv файлы
 ├── parquet_files/ # Оптимизированные parquet
@@ -45,7 +45,7 @@ project_25/
 ├── 02_feature_eng.ipynb # Feature Engineering
 ├── 03_model.ipynb # Построение и обучение моделей
 ├── README.md # Документация проекта
-
+```
 
 
 ---
@@ -105,11 +105,11 @@ EPS = 0.005
 ```bash
    git clone -b project_25 https://github.com/Katrysechka/dl.25.git
    cd dl.25
-
+```
 2. Установить зависимости (см. `requirements.txt`):  
 ```bash
     pip install -r requirements.txt
-
+```
 
 3. Запустить ноутбуки в порядке:
 - `01_eda.ipynb`
